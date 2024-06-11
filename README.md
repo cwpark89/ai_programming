@@ -74,6 +74,23 @@ The script is divided into the following sections:
 ## Example Output
 The script prints the best parameters found during grid search, along with the evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Median Absolute Error (MedAE) for both the original and resampled datasets.
 
+```python
+Training and evaluating RandomForestRegressor (resampled data)...
+RandomForestRegressor - Best Parameters: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+RandomForestRegressor - Test Mean Absolute Error (resampled): 0.2951
+RandomForestRegressor - Test Mean Squared Error (resampled): 0.2222
+RandomForestRegressor - Test Median Absolute Error (resampled): 0.1500
+Score on training set (resampled): 0.9892
+Score on test set (resampled): 0.9212
+Training and evaluating GradientBoostingRegressor (resampled data)...
+GradientBoostingRegressor - Best Parameters: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}
+GradientBoostingRegressor - Test Mean Absolute Error (resampled): 0.2951
+GradientBoostingRegressor - Test Mean Squared Error (resampled): 0.2222
+GradientBoostingRegressor - Test Median Absolute Error (resampled): 0.1500
+Score on training set (resampled): 0.9904
+Score on test set (resampled): 0.9117
+```
+
 ## Contributions
 Contributions to this repository are welcome. Feel free to submit a pull request or open an issue for any enhancements or bug fixes.
 
