@@ -29,7 +29,8 @@ pip install -r requirements.txt
 
 ## Files
 - `WineQT.csv`: The original dataset containing wine quality data.
-- `WineQT_Cleaned.csv`: The cleaned dataset after preprocessing.
+- `requirements.txt`: The file containing the list of required packages.
+- `wine.py`: An additional script for various analyses and experiments.
 - `wine_Imbalancement.py`: The main script for data preprocessing, model training, evaluation, and handling class imbalance.
 
 ## Usage
@@ -81,4 +82,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-For any questions or further information, please contact Changwoo Park at cwpark89@soongsil.ac.kr.
+For any questions or further information, please contact [Your Name] at [Your Email].
